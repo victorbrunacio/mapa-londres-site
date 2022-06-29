@@ -1,0 +1,42 @@
+.leaflet-container{
+    height: 70vh;
+width: 100vw    ;
+border-radius: 30px;
+
+}
+.divMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* CSS */
+button {
+  background-color: #7e6341;
+  border-radius: 10px;
+  box-shadow: rgba(216, 139, 66, 0.2) 0 -25px 18px -14px inset,rgba(216, 139, 66, 0.2)0 1px 2px,rgba(163, 126, 91, 0.2) 0 2px 4px,rgba(151, 151, 150, 0.2) 0 4px 8px,rgba(248, 141, 42, 0.2) 0 8px 16px,rgba(182, 96, 16, 0.2) 0 16px 32px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  padding: 2rem;
+  width: 25rem;
+  margin-top: 2rem;
+}
+
+button:hover {
+  box-shadow: rgba(252, 252, 252, 0.35) 0 -25px 18px -14px inset,rgba(177, 185, 180, 0.25) 0 1px 2px,rgba(165, 165, 165, 0.25) 0 2px 4px,rgba(97, 97, 97, 0.25) 0 4px 8px,rgba(248, 248, 248, 0.25) 0 8px 16px,rgba(143, 148, 145, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
